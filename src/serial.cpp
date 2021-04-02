@@ -1,5 +1,5 @@
-/* FAU200 GUI - Version 1.0 for Debian Linux
-   Copyright (c) 2018 Samuel Lourenço
+/* FAU200 GUI - Version 2.0 for Debian Linux
+   Copyright (c) 2018-2019 Samuel Lourenço
 
    This program is free software: you can redistribute it and/or modify it
    under the terms of the GNU General Public License as published by the Free
@@ -56,11 +56,10 @@ void Serial::on_pushButtonRefresh_clicked()
 void Serial::list()
 {
     QProcess sh;
-    QString result;
     sh.setProcessChannelMode(QProcess::MergedChannels);
     sh.start("sh", QStringList() << "-c" << "fau200-list");
     sh.waitForFinished();
-    result = sh.readAll();
+    QString result = sh.readAll();
     result.chop(1);
     ui->textBrowserList->append(result);
     sh.close();
