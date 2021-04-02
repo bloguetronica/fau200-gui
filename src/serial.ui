@@ -33,8 +33,8 @@
     <disabledon>:/icons/icons/greyed64.png</disabledon>
     <activeoff>:/icons/icons/active64.png</activeoff>
     <activeon>:/icons/icons/active64.png</activeon>
-    <selectedoff>:/icons/icons/selected.png</selectedoff>
-    <selectedon>:/icons/icons/selected.png</selectedon>:/icons/icons/active64.png</iconset>
+    <selectedoff>:/icons/icons/selected64.png</selectedoff>
+    <selectedon>:/icons/icons/selected64.png</selectedon>:/icons/icons/active64.png</iconset>
   </property>
   <property name="locale">
    <locale language="English" country="UnitedStates"/>
