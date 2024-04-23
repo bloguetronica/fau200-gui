@@ -23,6 +23,7 @@
 
 // Includes
 #include <QMainWindow>
+#include <QString>
 #include <QtXml>
 
 namespace Ui {
