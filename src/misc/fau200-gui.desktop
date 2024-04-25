@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=FAU200 GUI
+Icon=fau200-gui
+Exec=fau200-gui
+Terminal=false
+Categories=Development;Electronics;
